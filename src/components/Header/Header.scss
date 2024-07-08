@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #333;
+  padding: 20px;
+
+  &__button {
+    font-size: 1.8rem;
+    text-decoration: none;
+    border: 1px solid #333;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 6px 12px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__link {
+    font-size: 1.8rem;
+    text-decoration: none;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
